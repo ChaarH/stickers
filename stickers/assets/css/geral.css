@@ -1,0 +1,31 @@
+body {
+	background: #f3f3f3;
+	display: flex;
+	/* font-family: 'Roboto', sans-serif; */
+}
+
+.stick {
+  /* display: none; */
+}
+
+.stick textarea {
+	width: 200px;
+	height: 150px;
+	border: 1px solid #80ff80;
+	background: #80ff80;
+	color: #000;
+	cursor: pointer;
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+
+	-webkit-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 10px 5px 0px rgba(0,0,0,0.75);
+}
+  
+button {
+	background: #80ff80;
+	border: 1px solid #80ff80;
+	border-radius: 2px;
+	cursor: pointer;
+}
